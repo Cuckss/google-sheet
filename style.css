@@ -1,0 +1,35 @@
+/* body{
+    margin:0;
+    padding:0;
+    
+} */
+table{
+    border-collapse: collapse;
+}
+th,td{
+    border:1px solid #333;
+    min-width:80px;
+}
+
+#bold-btn:hover{
+    cursor: pointer;
+}
+.nav{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 20px;
+}
+.button{
+    padding:10px;
+    height:35px;
+}
+#bold-btn{
+    font-weight: bold;
+}
+#italic-btn{
+    font-style: italic;
+}
+#underline-btn{
+    text-decoration: underline;
+}
